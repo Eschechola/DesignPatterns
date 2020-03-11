@@ -4,7 +4,6 @@
 <br>
 <p>Divididos em: <strong>Criacionais, Estruturais e Comportamentais</strong></p>
 <br>
-<br>
 <h3>Artigos da série</h3>
 <ol>
   <li><strong>A Fabrica de Arquitetos — GoF e os Cavaleiros da Arquitetura</strong> - <a href="https://medium.com/@lucas.eschechola/a-fabrica-de-arquitetos-gof-e-os-cavaleiros-da-arquitetura-e0629a63b659">Leia Agora</a></li>
