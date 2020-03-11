@@ -13,6 +13,5 @@
 
 <br><br><br>
 <br><br><br>
-<center>
-  <p>2020</p>
-</center>
+
+<p align="center">2020</p>
