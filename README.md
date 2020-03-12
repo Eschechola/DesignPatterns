@@ -8,7 +8,7 @@
 <ol>
   <li><strong>A Fabrica de Arquitetos — GoF e os Cavaleiros da Arquitetura</strong> - <a href="https://medium.com/@lucas.eschechola/a-fabrica-de-arquitetos-gof-e-os-cavaleiros-da-arquitetura-e0629a63b659">Leia Agora</a></li>
   <li><strong>A Fabrica de Arquitetos I — Facade Pattern</strong> - <a href="https://medium.com/@lucas.eschechola/a-fabrica-de-arquitetos-facade-pattern-b3525423960">Leia Agora</a></li>
-  <li><strong>A Fabrica de Arquitetos II — Proxy Pattern</strong> - <a href="">Em breve</a></li>
+  <li><strong>A Fabrica de Arquitetos II — Proxy Pattern</strong> - <a href="https://medium.com/@lucas.eschechola/a-f%C3%A1brica-de-arquitetos-ii-proxy-pattern-d279a8c89ac6">Leia Agora</a></li>
 </ol>
 
 <br><br><br>
