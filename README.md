@@ -6,7 +6,6 @@
 <br>
 <h3>Artigos da série</h3>
 
-<strong>
 <ol>
   <li>A Fabrica de Arquitetos — GoF e os Cavaleiros da Arquitetura</strong> - <a href="https://eschechola.com.br/2020/02/13/a-fabrica-de-arquitetos-gof-e-os-cavaleiros-da-arquitetura">Leia Agora</a></li>
   
@@ -23,7 +22,6 @@
   <li>A Fabrica de Arquitetos VI — Strategy Pattern</strong> - <a href="https://eschechola.com.br/2020/11/08/a-fabrica-de-arquitetos-vi-strategy-pattern">Leia Agora</a></li>
 
 </ol>
-</strong>
 
 <br><br><br>
 <br><br><br>
