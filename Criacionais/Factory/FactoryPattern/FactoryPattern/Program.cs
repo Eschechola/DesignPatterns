@@ -29,16 +29,16 @@ namespace FactoryPattern
 
                     case 2:
                         var acidentes = new List<Acidente>
-                    {
-                        new Acidente("Gato preso", "Gato preso em cima da árvore!", TipoAcidente.Pequeno),
-                        new Acidente("Batida de carro", "Dois carros se colidiram na avenia XYZ as 2 horas da tarde.", TipoAcidente.Medio),
-                        new Acidente("Queda de avião", "Avião sofre pane e cai durante a noite de segunda feira.", TipoAcidente.Grande)
-                    };
+                        {
+                            new Acidente("Gato preso", "Gato preso em cima da árvore!", TipoAcidente.Pequeno),
+                            new Acidente("Batida de carro", "Dois carros se colidiram na avenida XYZ as 2 horas da tarde.", TipoAcidente.Medio),
+                            new Acidente("Queda de avião", "Avião sofre pane e cai durante a noite de segunda feira.", TipoAcidente.Grande)
+                        };
 
                         foreach (var acidente in acidentes)
                         {
                             var socorro = SocorroFactory.GerarPedidoDeSocorro(acidente.TipoAcidente);
-                            socorro.GerarSocorro(acidente);
+                            socorro.Socorrer(acidente);
                         }
                         break;
                 }

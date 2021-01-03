@@ -1,4 +1,5 @@
 ﻿using System;
+using FactoryPattern.Entities;
 using FactoryPattern.Enum;
 using FactoryPattern.Functions;
 
