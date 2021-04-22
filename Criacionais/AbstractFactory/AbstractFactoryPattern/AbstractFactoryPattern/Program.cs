@@ -22,8 +22,8 @@ namespace AbstractFactoryPattern
             var socorroGrande = socorroGrandeFactory.GerarSolicitacaoDeSocorro(acidenteGrande);
 
             socorroPequeno.ExibirSolicitacaoDeSocorro();
-            socorroPequeno.ExibirSolicitacaoDeSocorro();
-            socorroPequeno.ExibirSolicitacaoDeSocorro();
+            socorroMedio.ExibirSolicitacaoDeSocorro();
+            socorroGrande.ExibirSolicitacaoDeSocorro();
         }
     }
 }

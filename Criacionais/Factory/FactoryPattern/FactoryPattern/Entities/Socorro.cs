@@ -1,5 +1,4 @@
 ﻿using System;
-using FactoryPattern.Entities;
 
 namespace FactoryPattern.Entities
 {
@@ -11,3 +10,4 @@ namespace FactoryPattern.Entities
         public abstract void Socorrer(Acidente acidente);
     }
 }
+      

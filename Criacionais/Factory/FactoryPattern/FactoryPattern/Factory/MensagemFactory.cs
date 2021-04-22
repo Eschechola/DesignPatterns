@@ -10,10 +10,13 @@ namespace FactoryPattern.Factory
             switch (dia)
             {
                 case Dia.Manha:
-                    return "Bom dia";
+                    return "Bom dia!";
+
+                case Dia.Tarde:
+                    return "Boa tarde!";
 
                 case Dia.Noite:
-                    return "Boa noite";
+                    return "Boa noite!";
 
                 default:
                     throw new Exception("Horário não encontrado!");

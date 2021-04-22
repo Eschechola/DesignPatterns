@@ -1,6 +1,6 @@
 ﻿using System;
-using FactoryPattern.Entities;
 using FactoryPattern.Enum;
+using FactoryPattern.Entities;
 using FactoryPattern.Functions;
 
 namespace FactoryPattern.Factory

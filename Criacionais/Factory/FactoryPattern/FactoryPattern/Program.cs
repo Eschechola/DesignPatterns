@@ -24,6 +24,7 @@ namespace FactoryPattern
                 {
                     case 1:
                         Console.WriteLine(MensagemFactory.GerarMensagem(Dia.Manha));
+                        Console.WriteLine(MensagemFactory.GerarMensagem(Dia.Tarde));
                         Console.WriteLine(MensagemFactory.GerarMensagem(Dia.Noite));
                         break;
 

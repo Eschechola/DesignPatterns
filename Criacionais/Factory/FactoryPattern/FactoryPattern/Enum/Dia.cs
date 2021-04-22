@@ -3,6 +3,7 @@
     public enum Dia
     {
         Manha,
+        Tarde,
         Noite
     }
 }
