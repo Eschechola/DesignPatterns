@@ -1,4 +1,4 @@
-# Design-Patterns
+# Design Patterns
 <br>
 <p>Repositório com os projetos da série "A Fabrica de Arquitetos"</p>
 <br>
@@ -20,7 +20,12 @@
   <li>A Fabrica de Arquitetos V — Adapter Pattern</strong> - <a href="https://eschechola.com.br/2020/10/19/a-fabrica-de-arquitetos-v-adapter-pattern">Leia Agora</a></li>
   
   <li>A Fabrica de Arquitetos VI — Strategy Pattern</strong> - <a href="https://eschechola.com.br/2020/11/08/a-fabrica-de-arquitetos-vi-strategy-pattern">Leia Agora</a></li>
-
+  
+  <li>A Fabrica de Arquitetos VII — Mediator Pattern + MediatR</strong> - <a href="https://eschechola.com.br/2020/12/07/a-fabrica-de-arquitetos-vii-mediator-pattern-mediatr">Leia Agora</a></li>
+  
+  <li>A Fabrica de Arquitetos VIII — Factory Pattern</strong> - <a href="https://eschechola.com.br/2021/01/03/a-fabrica-de-arquitetos-viii-factory-pattern">Leia Agora</a></li>
+  
+  <li>A Fabrica de Arquitetos IX — Abstract Factory Pattern</strong> - <a href="https://eschechola.com.br/2021/03/08/a-fabrica-de-arquitetos-ix-abstract-factory-pattern">Leia Agora</a></li>
 </ol>
 
 <br><br><br>
