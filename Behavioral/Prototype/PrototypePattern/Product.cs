@@ -19,7 +19,7 @@ namespace PrototypePattern
 
         public IPrototype ShallowClone()
         {
-            return (Product)this.MemberwiseClone();
+            return this.MemberwiseClone() as Product;
         }
 
         public IPrototype DeepClone()
@@ -30,7 +30,7 @@ namespace PrototypePattern
                 this.Price,
                 this.Amount);
 
-            return (Product)product;
+            return product as Product;
         }
 
         public void ShowDetails()
