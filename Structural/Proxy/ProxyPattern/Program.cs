@@ -1,6 +1,5 @@
 ﻿using System;
-using ProxyPattern.Classes;
-using ProxyPattern.Interfaces;
+using ProxyPattern.Repositories;
 
 namespace ProxyPattern
 {
@@ -8,12 +7,13 @@ namespace ProxyPattern
     {
         static void Main(string[] args)
         {
-            //carrega os usuários e cria a instância pela primeira vez
-            IUsuario usuarioProxy = new UsuarioProxy();
-            usuarioProxy.Exibir();
+            IUserRepository userProxy = new UserProxy();
 
-            //já na segunda vez já utiliza a instância existente
-            usuarioProxy.Exibir();
+            //create's a instance
+            userProxy.Show();
+
+            //use a existent instance
+            userProxy.Show();
 
             Console.ReadKey();
         }
