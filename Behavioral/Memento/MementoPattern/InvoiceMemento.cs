@@ -8,6 +8,7 @@ namespace MementoPattern
         public string CustomerDocument { get; set; }
         public string CustomerName { get; set; }
         public decimal AmountToPay { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public InvoiceMemento(Guid id, string customerDocument, string customerName, decimal amountToPay)
         {
@@ -15,6 +16,7 @@ namespace MementoPattern
             CustomerDocument = customerDocument;
             CustomerName = customerName;
             AmountToPay = amountToPay;
+            CreatedAt = DateTime.Now;
         }
     }
 }

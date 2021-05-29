@@ -6,11 +6,11 @@ namespace MementoPattern
     {
         static void Main(string[] args)
         {
-            Invoice invoice = new Invoice();
-            invoice.Id = Guid.NewGuid();
-            invoice.CustomerDocument = "000.000.000-00";
-            invoice.CustomerName = "Lucas G.";
-            invoice.AmountToPay = new Random().Next(100, 1500);
+            Invoice invoice = new Invoice(
+                id: Guid.NewGuid(),
+                customerDocument: "000.000.000-00",
+                customerName: "Lucas G.",
+                amountToPay: new Random().Next(100, 1500));
 
             Console.WriteLine("1 - State");
             Console.WriteLine("Id: {0}", invoice.Id.ToString());
