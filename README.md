@@ -17,6 +17,7 @@
  <li>The Architect Factory VII — Mediator Pattern + MediatR</strong> - <a href="https://eschechola.com.br/2020/12/07/a-fabrica-de-arquitetos-vii-mediator-pattern-mediatr">Read Now</a></li>
  <li>The Architect Factory VIII — Factory Pattern</strong> - <a href="https://eschechola.com.br/2021/01/03/a-fabrica-de-arquitetos-viii-factory-pattern">Read Now</a></li>
  <li>The Architect Factory IX — Abstract Factory Pattern</strong> - <a href="https://eschechola.com.br/2021/03/08/a-fabrica-de-arquitetos-ix-abstract-factory-pattern">Read Now</a></li>
+ <li>The Architect Factory X — Memento Pattern</strong> - <a href="https://eschechola.com.br/2021/05/29/a-fabrica-de-arquitetos-x-memento-pattern">Read Now</a></li>
 </ol>
 
 <br><br><br>
