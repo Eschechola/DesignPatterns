@@ -3,7 +3,7 @@
     public interface IEntityIterator
     {
         bool IsFirst { get; }
-        bool IsDone { get; }
+        bool IsLast { get; }
         object CurrentElement { get; }
         object First();
         object Next();

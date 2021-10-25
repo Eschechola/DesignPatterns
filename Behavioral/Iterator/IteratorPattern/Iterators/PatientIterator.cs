@@ -19,7 +19,7 @@ namespace IteratorPattern.Iterators
         public bool IsFirst
             => _current == 0;
 
-        public bool IsDone
+        public bool IsLast
             => _current >= _patientCollection.Count;
 
         public object CurrentElement
@@ -35,7 +35,7 @@ namespace IteratorPattern.Iterators
         {
             _current += _step;
 
-            if (!IsDone)
+            if (!IsLast)
                 return _patientCollection[_current] as Patient;
 
             throw new ArgumentOutOfRangeException();
