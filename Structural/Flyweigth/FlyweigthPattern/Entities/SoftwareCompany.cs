@@ -6,7 +6,7 @@ namespace FlyweigthPattern.Entities
     public class SoftwareCompany : Company
     {
         public List<string> Softwares { get; private set; }
-        public int SoftwaresCount { get { return Softwares.Count; } private set { } }
+        public int SoftwaresCount { get => Softwares.Count; private set { } }
 
         public SoftwareCompany()
         {

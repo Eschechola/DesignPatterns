@@ -1,4 +1,4 @@
-﻿using BridgePattern.Fretes;
+﻿using BridgePattern.Fees;
 using System;
 
 namespace BridgePattern
@@ -7,17 +7,17 @@ namespace BridgePattern
     {
         static void Main(string[] args)
         {
-            Frete frete;
-            string cep = "99999-000";
+            Fee fee;
+            string zipcode = "99999-000";
 
-            frete = new Frete(new FreteSedex());
-            Console.WriteLine("Calculando frete via Sedex: R${0:0.00}", frete.CalcularValorDoFrete(cep));
+            fee = new Fee(new FeeeSedex());
+            Console.WriteLine("Calculando frete via Sedex: R${0:0.00}", fee.CalculateFeePrice(zipcode));
 
-            frete = new Frete(new FreteAzul());
-            Console.WriteLine("Calculando frete via Azul: R${0:0.00}", frete.CalcularValorDoFrete(cep));
+            fee = new Fee(new FeeAzul());
+            Console.WriteLine("Calculando frete via Azul: R${0:0.00}", fee.CalculateFeePrice(zipcode));
 
-            frete = new Frete(new FreteLoggi());
-            Console.WriteLine("Calculando frete via Loggi: R${0:0.00}", frete.CalcularValorDoFrete(cep));
+            fee = new Fee(new FeeLoggi());
+            Console.WriteLine("Calculando frete via Loggi: R${0:0.00}", fee.CalculateFeePrice(zipcode));
         }
     }
 }
