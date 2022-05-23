@@ -30,9 +30,13 @@
  <li>The Architect Factory X — Memento Pattern</strong> - <a href="https://eschechola.com.br/2021/05/29/a-fabrica-de-arquitetos-x-memento-pattern">Read Now</a></li>
  
  <li>The Architect Factory XI — Iterator Pattern</strong> - <a href="https://eschechola.com.br/2021/10/25/a-fabrica-de-arquitetos-xi-iterator-pattern">Read Now</a>/li>
+ 
+ <li>The Architect Factory XII — Flywieght Pattern</strong> - <a href="https://eschechola.com.br/2021/12/19/a-fabrica-de-arquitetos-xii-flyweight-pattern">Read Now</a>/li>
+ 
+ <li>The Architect Factory XIII — Bridge Pattern</strong> - <a href="https://eschechola.com.br/2022/02/01/a-fabrica-de-arquitetos-xiii-bridge-pattern">Read Now</a>/li>
 </ol>
 
 <br><br><br>
 <br><br><br>
 
-<p align="center">2020</p>
+<p align="center">2022</p>
